@@ -1,0 +1,208 @@
+
+@media screen and (min-width: 420px) {
+body {
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+}
+
+.navbar {
+    background-color: none;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+@media screen and (min-width: 598px) {
+    .navbar .menu img {
+        display: none;
+        height: 10px
+
+    }
+}
+
+.navbar .menu {
+    height: 20px;
+    width: 40px;
+    padding-top: 8px;
+}
+
+.navbar .menu img {
+    height: 40px;
+    width: 40px;
+}
+
+@media screen and (min-width: 598px) {
+.navbar .menu img {
+    height: 20px;
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 600px) {
+    .navbar div ul li a {
+        display: none !important;
+    }
+}
+
+
+.navbar div ul { 
+    display: none; 
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+} 
+    
+
+.navbar div ul li a {
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 10px;
+    color: black;
+}
+
+/* introduction pictures*/
+
+.container-intro {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgb(129, 129, 129);
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-intro {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+.container-intro div {
+    display: block;
+    height: auto;
+    width: 50%;
+    padding-top: 40px;
+    padding-bottom: 80px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container-intro div {
+        padding: 0;
+        margin: auto;
+
+    }
+}
+
+.container-intro div img {
+    height: auto;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 425px) {
+    .container-intro div img {
+        height: auto;
+        width: 100%;
+        padding-top: 10;
+        
+        
+    }
+}
+
+.container-intro div h1 {
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 32%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 2.1em;
+    letter-spacing: 0.08em;
+    
+}
+
+.container-intro div h2 {
+    text-align: left;
+    padding-left: 32%;
+    font-size: 1.1em;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    color: rgb(92, 92, 92);
+}
+
+@media screen and (max-width: 768px) {
+    .container-intro div h1 {
+        padding-left: 50px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container-intro div h1 {
+        padding-left: 10px;
+        font-size: 1.5em;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container-intro div h2 {
+        padding-left: 50px;
+        padding-bottom: 40%;
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .container-intro div h2 {
+        padding-left: 10px;
+        padding-bottom: 30%;
+        font-size: 1em;
+    }
+}
+
+
+
+/* menu - animations */
+
+a.left {
+    position: relative;
+}
+
+a.left:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    bottom: -2px;
+    left: 0;
+    background-color: rgb(22, 22, 22);
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+
+}
+
+a.left:hover:before {
+    visibility: visible;
+    width: 120%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
