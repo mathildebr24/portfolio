@@ -88,13 +88,14 @@ body {
     .container-intro {
         display: flex;
         flex-direction: column-reverse;
+    
     }
 }
 
 .container-intro div {
     display: block;
     height: auto;
-    width: 50%;
+    width: 90%;
     padding-top: 40px;
     padding-bottom: 80px;
 
@@ -111,7 +112,7 @@ body {
 .container-intro div img {
     height: auto;
     width: 100%;
-
+    
 }
 
 @media screen and (max-width: 425px) {
