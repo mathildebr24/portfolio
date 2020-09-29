@@ -7,7 +7,7 @@ body {
 }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 420px) {
     body {
         padding-left: 2%;
         padding-right: 2%;
@@ -115,7 +115,7 @@ body {
     
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 420px) {
     .container-intro div img {
         height: auto;
         width: 100%;
@@ -154,7 +154,7 @@ body {
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 420px) {
     .container-intro div h1 {
         padding-left: 10px;
         font-size: 1.5em;
@@ -170,7 +170,7 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 420px) {
     .container-intro div h2 {
         padding-left: 10px;
         padding-bottom: 30%;
