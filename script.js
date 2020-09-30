@@ -48,12 +48,12 @@ let imagesList = [
         src: "../assets/9.png",
         alt: "image Monster family",
         href: "../Project-page/Project-Monster.html"
-    }
+    },
     {
         src: "../assets/10.png",
         alt: "image Widex",
         href: "../Project-page/Project-widex.html"
-    }
+    },
     {
         src: "../assets/11.png",
         alt: "image Ladrum",
