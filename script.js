@@ -49,6 +49,16 @@ let imagesList = [
         alt: "image Monster family",
         href: "../Project-page/Project-Monster.html"
     }
+    {
+        src: "../assets/10.png",
+        alt: "image Monster family",
+        href: "../Project-page/Project-Monster.html"
+    }
+    {
+        src: "../assets/11.png",
+        alt: "image Monster family",
+        href: "../Project-page/Project-Monster.html"
+    }
 ]
 
 function selectImages(images) {
