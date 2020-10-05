@@ -6,7 +6,7 @@
     width: 70%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .galery {
         flex-direction: column;
     }
@@ -43,7 +43,7 @@
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .galery-images {
         width: 100%;
         display: block;
@@ -59,7 +59,7 @@
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .galery-images div {
         width: 100%;
         display: block;
@@ -79,7 +79,7 @@
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .galery-images div img {
         height: auto;
         max-width: 97%;

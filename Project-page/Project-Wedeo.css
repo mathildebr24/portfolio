@@ -163,7 +163,6 @@ body {
     letter-spacing: 1px;
     text-align: center;
 
-    
 }
 
 .image-introduction {
@@ -183,19 +182,49 @@ body {
 
 }
 
+.process-detail {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    margin: auto;
+}
 
-.image-intro {
+.process-detail img {
+    width: 50%;
+}
+
+@media screen and (max-width: 500px) {
+    .process-detail {
+        flex-direction: column;
+        overflow: hidden;
+        padding: 0;
+        padding-top: 10px;
+        padding-left: 10px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .process-detail img {
+        width: 100%;
+    }
+}
+
+
+.image-wireframe {
     display: block;
-    width: 100%;
+    width: 70%;
     height: auto;
     padding-top: 50px;
-    padding-left: 50px;
+
     padding-bottom: 30px;
     margin: auto;
 }
 
 @media screen and (max-width: 420px) {
-    .image-intro {
+    .image-wireframe {
         overflow: hidden;
         width: 300px;
         height: auto;
@@ -206,13 +235,9 @@ body {
     }
 }
 
-.image-intro p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 0.8em;
-}
 
-.image-intro img {
-    width: 80%;
+.image-wireframe img {
+    width: 100%;
     height: auto;
 
 }
@@ -285,6 +310,31 @@ body {
     text-align: justify;
 }
 
+
+/* solution explication */
+
+.solution {
+    display: block;
+    width: 90%;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 4%;
+}
+
+.solution h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1.5em;
+    padding-top: 50px;
+    
+}
+
+.solution h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: 1em;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
 
 /* mockup details */
 
