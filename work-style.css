@@ -45,7 +45,7 @@
 
 @media screen and (max-width: 500px) {
     .galery-images {
-        width: 100%;
+        width: 90%;
         display: block;
 
     }
