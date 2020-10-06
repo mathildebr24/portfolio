@@ -269,6 +269,27 @@ body {
 
 /* mockup details */
 
+.description .atomic-design  {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    padding-left: 20px;
+    padding-bottom: 40px;
+
+}
+
+@media screen and (max-width:500px) {
+    .description .atomic-design {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+}
+
+.description .atomic-design img {
+    width: 100%;
+}
+
 .images {
     display: flex;
     flex-direction: column;
@@ -309,6 +330,7 @@ body {
         flex-direction: column;
         align-items: center;
         padding-top: 50px;
+        padding: 0;
     
     }
 }
