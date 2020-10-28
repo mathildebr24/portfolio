@@ -58,6 +58,11 @@ let imagesList = [
         src: "../assets/11.png",
         alt: "image Ladrum",
         href: "../Project-page/Project-Ladrum.html"
+    },
+    {
+        src: "../assets/12.png",
+        alt: "image Habitat",
+        href: "../Project-page/Project-habitat.html"
     }
 ]
 
