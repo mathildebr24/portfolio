@@ -65,10 +65,15 @@ let imagesList = [
         href: "../Project-page/Project-habitat.html"
     },
     {
-        src: "../assets/13.jpg",
+        src: "../assets/13.png",
         alt: "image Blue Women",
         href: "../Project-page/Project-bluewomen.html"
-    }
+    },
+    {
+        src: "../assets/14.png",
+        alt: "image Illustratio",
+        href: "../Project-page/Project-illustration.html"
+    },
 ]
 
 function selectImages(images) {
