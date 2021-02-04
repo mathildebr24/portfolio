@@ -67,11 +67,11 @@ let imagesList = [
     {
         src: "../assets/13.png",
         alt: "image Blue Women",
-        href: "../Project-page/Project-bluewomen.html"
+        href: "../Project-page/Project-bleuwomen.html"
     },
     {
         src: "../assets/14.png",
-        alt: "image Illustratio",
+        alt: "image Illustration",
         href: "../Project-page/Project-illustration.html"
     },
 ]
